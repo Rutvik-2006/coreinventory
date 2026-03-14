@@ -1,0 +1,56 @@
+.page {
+  min-height: 100vh;
+  background: var(--bg-base);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-image:
+    radial-gradient(ellipse at 20% 50%, rgba(232,108,47,0.04) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 20%, rgba(74,158,255,0.04) 0%, transparent 60%);
+}
+.card {
+  width: 100%;
+  max-width: 420px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-xl);
+  padding: 36px 32px;
+  box-shadow: var(--shadow-lg);
+  animation: fadeIn 0.3s ease;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+.brandIcon { font-size: 2rem; color: var(--accent); }
+.brand h1 {
+  font-size: 1.5rem;
+  font-family: var(--font-mono);
+  font-weight: 400;
+  color: var(--text-primary);
+}
+.brand h1 strong { color: var(--accent); font-weight: 700; }
+.subtitle {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  margin-bottom: 24px;
+}
+.form { display: flex; flex-direction: column; gap: 16px; }
+.forgot { text-align: right; margin-top: -8px; }
+.forgot a { font-size: 0.82rem; color: var(--text-secondary); }
+.forgot a:hover { color: var(--accent); }
+.switchLink { text-align: center; font-size: 0.85rem; color: var(--text-secondary); margin-top: 16px; }
+.demo {
+  margin-top: 20px;
+  padding: 12px;
+  background: var(--bg-overlay);
+  border-radius: var(--r-md);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border: 1px solid var(--border);
+}
+.demo code { color: var(--accent); }
