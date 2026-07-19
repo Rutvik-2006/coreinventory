@@ -1,47 +1,62 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.sqlite3
+# Dependencies
+node_modules/
+package-lock.json
+.pnp
+.pnp.js
 
-# Virtual Environment
-venv/
-env/
-.venv/
-
-# Environment Variables
-.env
-
-# Python packaging
-build/
+# Build outputs
 dist/
+build/
+*.tsbuildinfo
 *.egg-info/
 
-# Logs
-*.log
+# Environment variables — NEVER commit these
+.env
+.env.local
+.env.*.local
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Node (if frontend uses npm later)
-node_modules/
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Database dumps
-*.sql
-*.dump
-
-# Testing
+# Testing and Coverage
+coverage/
+.nyc_output/
 .coverage
 htmlcov/
+
+# Database dumps and local DBs
+*.sqlite3
+*.sql
+*.dump
 
 # Temporary files
 tmp/
 temp/
+
+# Python caching and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python Virtual Environments
+coreinventory/
+venv/
+env/
+.venv/
+
+
