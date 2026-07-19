@@ -6,9 +6,9 @@
 -- Password: Admin@1234 (bcrypt hash)
 -- ============================================================
 INSERT INTO users (name, email, password_hash, role) VALUES
-('Admin User',    'admin@coreinventory.com', '$2b$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMsqGxPM3C4kA.Yw5r1QxFOG3C', 'admin'),
-('Demo Manager',  'manager@coreinventory.com', '$2b$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMsqGxPM3C4kA.Yw5r1QxFOG3C', 'manager'),
-('Warehouse Staff','staff@coreinventory.com',  '$2b$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMsqGxPM3C4kA.Yw5r1QxFOG3C', 'staff');
+('Admin User',    'admin@coreinventory.com', '$2b$12$nqx3hI.BOm/oVNRrZL06w.wgOuOlPQxYFmMmchHl1vCNa5KYGNmiK', 'admin'),
+('Demo Manager',  'manager@coreinventory.com', '$2b$12$nqx3hI.BOm/oVNRrZL06w.wgOuOlPQxYFmMmchHl1vCNa5KYGNmiK', 'manager'),
+('Warehouse Staff','staff@coreinventory.com',  '$2b$12$nqx3hI.BOm/oVNRrZL06w.wgOuOlPQxYFmMmchHl1vCNa5KYGNmiK', 'staff');
 
 -- ============================================================
 -- WAREHOUSES
